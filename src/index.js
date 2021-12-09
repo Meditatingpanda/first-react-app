@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Movie from './components/movieContainer'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Movie/>
   </React.StrictMode>,
   document.getElementById('root')
 );
